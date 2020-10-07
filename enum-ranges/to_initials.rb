@@ -1,9 +1,9 @@
 def to_initials(name)
   arr = name.split(" ")
-  output = ""
-  arr.each { |word| output += word[0].upcase }
+  initials = ""
+  arr.each { |word| initials += word[0].upcase }
   
-  return output
+  return initials
 end
 
 puts to_initials("Kelvin Bridges")      # => "KB"
