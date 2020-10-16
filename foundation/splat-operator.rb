@@ -27,3 +27,8 @@ arr_2 = ["d", "e"]
 arr_3 = [ *arr_1, "c", *arr_2 ]
 
 p arr_3
+
+# decompose a hash
+my_hash = { a: 1, b: 2 }
+new_hash = { **my_hash, c: 3 }
+p new_hash
