@@ -21,13 +21,7 @@ end
 
 def prime?(num)
 	return false if num < 2
-
-	(2...num).each do |factor|
-		if num % factor == 0
-			return false
-		end
-	end
-	true
+  (2...num).none? { |factor| num % factor == 0 }
 end
 
 

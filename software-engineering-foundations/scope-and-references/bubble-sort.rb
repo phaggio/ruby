@@ -1,4 +1,4 @@
-# bubble sort
+# bubble sort algorithm
 def bubble_sort(arr)
   sorted = false
 
