@@ -39,3 +39,4 @@ add_and_proc_2(1, 4, &doubler)
 # example
 p [1, 2, 3].map { |num| num * 2 }
 p [1, 2, 3].map(&doubler)
+
